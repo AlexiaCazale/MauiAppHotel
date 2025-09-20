@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MauiAppHotel.Models
 {
-    internal class Hospedagem
+    public class Hospedagem
     {
         public Quarto QuartoSelecionado { get; set; }
         public int QntAdultos { get; set; }

@@ -5,7 +5,7 @@ namespace MauiAppHotel
     public partial class App : Application
     {
 
-        public List<Quarto> lista_quartos = new()
+        public static List<Quarto> lista_quartos = new()
         {
             new()
             {
